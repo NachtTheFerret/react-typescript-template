@@ -11,7 +11,6 @@ export default (() => {
 
   return (
     <BrowserRouter>
-
       <div className={styles.body}>
         <Routes>
           <Route index />

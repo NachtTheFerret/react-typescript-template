@@ -14,7 +14,8 @@
         "ecmaVersion": "latest",
         "sourceType": "module",
         "project": "tsconfig.json"
-      }
+      },
+      "rules": { "linebreak-style": ["error", "windows"] }
     },
     {
       "files": ["src/**/*.tsx"],
@@ -32,7 +33,8 @@
         "react/react-in-jsx-scope": "off",
         "react/jsx-props-no-spreading": "off",
         "react/jsx-no-constructed-context-values": "off",
-        "jsx-a11y/label-has-associated-control": "off"
+        "jsx-a11y/label-has-associated-control": "off",
+        "linebreak-style": ["error", "windows"]
       }
     }
   ]
