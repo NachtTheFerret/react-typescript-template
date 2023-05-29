@@ -30,8 +30,7 @@
 
     //! Emit
     "declaration": true,
-    "importHelpers": true,
-    "importsNotUsedAsValues": "error",
+    "importHelpers": true, 
     "inlineSources": true,
     "newLine": "lf",
     "noEmitHelpers": true,
